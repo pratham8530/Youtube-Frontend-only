@@ -1,0 +1,91 @@
+.sidebar{
+	position: fixed;
+	top: 60px;
+	left: 0;
+	bottom: 0;
+	width: 240px;
+	padding: 12px;
+	overflow: scroll;
+	overflow-x: hidden;
+  scrollbar-width: thin;
+  scrollbar-color: #888 transparent; 
+}
+
+.sidebar::-webkit-scrollbar {
+  width: 8px; 
+	
+}
+.general-sidebar{
+	border-bottom: 1px solid;
+	border-color: hsl(0,0%,18.82%);
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 15px;
+	
+}
+.general-sidebar-options {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	min-width: 0;
+	padding: 0 12px;
+	width: 200px;
+	height: 45px;
+	color: white;
+	border-radius: 10px;
+	margin: 2px 0 -3px 2px;
+	cursor: pointer;
+}
+
+.general-sidebar-options:hover{
+	background-color: rgb(35, 35, 35);
+}
+.general-sidebar-options-profile {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	width: 200px;
+	height: 45px;
+	color: white;
+	border-radius: 10px;
+	margin: 2px 0 8px 0;
+}
+
+.general-sidebar-options-profile p{
+	margin: 19px 0 0 16px;
+	font-size: 17px;
+	font-weight: 500;
+}
+.general-sidebar-options-profile img{
+	margin: 19px 0 0 10px;
+
+}
+.general-sidebar-options-text{
+	margin-left: 28px;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.general-yt-features{
+	display: flex;
+	flex-direction: column;
+	border-bottom: 1px solid;
+	border-color: hsl(0,0%,18.82%);
+	padding: 0 0 15px 0;
+}
+
+.subscriptions-drawer img{
+	height: 26px;
+	width: 26px;
+	object-fit: cover;
+	border-radius: 40px;
+}
+
+.subscriptions-drawer-text{
+	color: white;
+	margin: 22px 0 4px 14px;
+	font-weight: 500;
+	font-size: 1.1rem;
+
+}
