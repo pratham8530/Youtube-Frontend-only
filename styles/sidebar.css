@@ -8,13 +8,9 @@
 	overflow: scroll;
 	overflow-x: hidden;
   scrollbar-width: thin;
-  scrollbar-color: #888 transparent; 
+  scrollbar-color: #888 transparent;
 }
 
-.sidebar::-webkit-scrollbar {
-  width: 8px; 
-	
-}
 .general-sidebar{
 	border-bottom: 1px solid;
 	border-color: hsl(0,0%,18.82%);
